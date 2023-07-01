@@ -1,0 +1,28 @@
+@import url('https://fonts.cdnfonts.com/css/chirp-2');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Cantarell-Regular', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    color: #000;
+    background-color: #fff;
+}
