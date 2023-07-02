@@ -1,0 +1,56 @@
+.top-nav {
+    position: sticky;
+    width: 59.8rem;
+    margin: 0 auto;
+    border: solid $light-border-color;
+    background-color: rgba(255, 255, 255, 0.85);
+    cursor: pointer;
+
+    &__home-link {
+        display: block;
+        font-size: 2rem;
+        padding: 1.5rem 1.6rem;
+        font-weight: 700;
+    }
+
+    &__link-cont {
+        list-style: none;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    &__item {
+        flex: 0 0 50%;
+    }
+
+    &__link {
+        display: block;
+        position: relative;
+        text-align: center;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding: 1.6rem 0;
+
+        @media (hover: hover) and (pointer: fine) {
+            &:hover {
+                background-color: $hover-color;
+            }
+        }
+    }
+
+    &__active-link {
+        font-weight: 700;
+    }
+
+    &__active-link-underline {
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        height: .4rem;
+        background-color: $light-blue-accent;
+        border-radius: 10rem;
+        bottom: 0;
+    }
+}
